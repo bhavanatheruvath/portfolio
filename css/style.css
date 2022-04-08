@@ -195,7 +195,7 @@ header{
     border-width:0.1px;
     border-radius:0.5rem;
     background-color: black;
-    color: white;
+    font-color: white;
 }
 .goback:hover{
     background-color:rgb(24, 172, 164);
