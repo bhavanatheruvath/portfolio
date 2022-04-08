@@ -1,0 +1,350 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0.5rem;
+    background-color: rgb(24, 172, 164);
+}
+header{
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px;
+    height: 7rem;
+    background-color: white;
+    width: 100%;
+}
+.logo{
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+}
+.logo_img{
+    width: 6rem;
+    height: 6rem;
+    padding-left: 1rem;
+}
+.navbar{
+    display: flex;
+    padding: 2.5%;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    
+}
+.navbar_item{
+    padding: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-decoration:none;
+    color: #fcfbf854;
+    font-family: Sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+.home{
+    list-style-type: none;
+    text-decoration: none;
+    color:#000 ;
+    
+}
+.home:hover{
+    font-weight: bold;
+    color: rgb(24, 172, 164);
+}   
+.about{
+    list-style-type: none;
+    text-decoration: none;
+    color:black ;
+}
+.about:hover{
+    font-weight: bold;
+    color: rgb(24, 172, 164);
+}
+.education{
+    list-style-type: none;
+    text-decoration: none;
+    color:black ;
+} 
+.education:hover{
+    font-weight: bold;
+    color: rgb(24, 172, 164);
+}
+.contact{
+    list-style-type: none;
+    text-decoration: none;
+    color:black ;
+    padding: 0.8rem;
+    background-color: rgb(24, 172, 164);
+    border-radius: 0.5rem;  
+}
+.contact:hover{
+    font-weight: bold;
+    background-color: rgb(108, 238, 231);
+}
+.container{
+    margin: 0;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 69%;
+    margin-right: 0%;
+    background-image: url(/images/enL_catalog_m_21H16_X1YBb9k4Yb.jpg);
+} 
+.container-box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-top: 0.4rem;
+    margin-left: 4rem;
+    height: 700px;
+    width: 2000px;
+}
+.content{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    height: 200px;
+    width: 500px;
+}
+.content h4{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    color: #000;
+}
+.content span{
+    color: rgb(24, 172, 164);
+}
+.content h1{
+    margin-left: 2rem; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+    padding-top: 1rem;
+} 
+.content p{
+    margin-left: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    justify-content: space-between;
+}
+.aboutme{
+    margin-top: 0.1rem;
+    background-color: rgb(168, 185, 185);
+    padding-left:0%;
+    padding-top: 1rem;
+    height: 70%;
+    background-image: url(/images/enL_catalog_m_21H16_X1YBb9k4Yb.jpg);
+}
+.cpic{
+    width: 400px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.heading{
+    font-size: xx-large;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+.myself{
+    margin-top: 5rem;
+    padding: 2rem;
+    margin-bottom: 9rem;
+    margin-right: 4rem;
+    background-color: rgba(100, 253, 253, 0.26);
+    border-radius: 2rem;
+}
+.myself h3{
+    padding-left: 1rem;
+    font-size: x-large;
+    color: rgba(7, 7, 7, 0.788);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.myself p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem;
+    font-weight: 400;
+    font-size: larger;
+    color: rgb(7, 6, 6);
+    justify-content: space-between;
+}
+.goback{
+    margin-top: 26.5rem;
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: solid;
+    border-width: 0.1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 6rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.goback:hover{
+    background-color:rgb(24, 172, 164);
+    border-color: rgb(24, 172, 164);
+}
+.g2b{
+    text-decoration: none;
+    color: #000;
+    font-weight: 200;
+}
+.edu{
+    width: 100%;
+    height: 60%;
+    margin-top: 0.1rem;
+    background-image: url(/images/enL_catalog_m_21H16_X1YBb9k4Yb.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    padding-top: 4rem;
+    padding-left: 18rem;
+    font-size: xx-large;
+}
+.s1{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 17rem;
+}
+.label1{
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+}
+.vvn{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.s2{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 17rem;
+} 
+.label2{
+    padding-top: 0.5rem;
+    padding-right: 0.5rem; 
+}     
+.chenda{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.schlpic{
+    margin-right: 2rem;
+    margin-bottom: 30rem;
+    padding-bottom: 30rem;
+}
+.pic{
+    width: 400px;
+    padding-top: 9rem;
+    padding-right: 5rem;
+}
+.conts{
+    width: 100%;
+    height: 110px;
+    margin-bottom: 1rem;
+}
+footer{
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.social-media{
+    align-items: center;
+    margin-left: 28rem;
+    margin-right: 30rem;
+    padding-top: 3rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.media{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 2rem;
+}
+.insta{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.git{
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+}
+.lin{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.tel{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    border-top: solid;
+    border-color: rgb(53, 52, 52);
+    border-width: 0.05px;
+    background-color: rgb(235, 231, 231);
+}
+.copy p{
+    color: black;
+    padding-left: 0.5rem;
+}
+.tabs{
+    color: rgb(235, 231, 231);
+    text-decoration: none;
+    display: flex;
+    padding-right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 0.1rem;
+    justify-content: space-between;
+}
+.H{
+    text-decoration: none;
+    color: #000;
+}
+.A{
+    text-decoration: none;
+    color: #000;
+}
+.E{
+    text-decoration: none;
+    color: #000;
+}
+.bi-telegram:hover{
+    fill: rgb(24, 172, 164);
+}
+.bi-linkedin:hover{
+    fill: rgb(24, 172, 164);
+}
+.bi-instagram:hover{
+    fill: rgb(24, 172, 164);
+}
+.bi-github:hover{
+    fill:rgb(24, 172, 164) ;
+}
+.H:hover{
+    color:rgb(24, 172, 164) ;
+}
+.A:hover{
+    color: rgb(24, 172, 164);
+}
+.E:hover{
+    color: rgb(24, 172, 164);
+}
