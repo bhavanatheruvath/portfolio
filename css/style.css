@@ -103,6 +103,10 @@ header{
     width: 2000px;
     padding-bottom: 1rem;
 }
+.image{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}    
 .content{
     margin-top: 5rem;
     margin-left: 3rem;
@@ -186,9 +190,9 @@ header{
     border: solid;
     border-width: 0.1rem;
     border-radius: 0.5rem;
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
     padding-top: 0.2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0%;
 }
 .goback:hover{
     background-color:rgb(24, 172, 164);
